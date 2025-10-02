@@ -1,47 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Resultados da busca</title>
+  <title>Arquivo Sonoro</title>
 </head>
 <body bgcolor="#FFFFFF" text="#000000">
 
   <center>
-    <h2>Resultados da busca</h2>
-    <div id="resultados" style="width:60%; margin:auto; font-family:sans-serif;"></div>
-    <br>
-    <a href="index.html">← Voltar</a>
+    <br><br><br>
+    <h1 style="font-size:48px; font-family:sans-serif;">Arquivo Sonoro</h1>
+    <form onsubmit="buscar(); return false;">
+      <input type="text" id="searchInput" placeholder="Buscar artista ou álbum..." size="40">
+      <input type="submit" value="Buscar">
+    </form>
   </center>
 
   <script>
-    const params = new URLSearchParams(window.location.search);
-    const query = params.get("q")?.toLowerCase() || "";
-
-    const musicData = [
-      { artista: "Radiohead", album: "OK Computer" },
-      { artista: "Radiohead", album: "Kid A" },
-      { artista: "Daft Punk", album: "Discovery" },
-      { artista: "Daft Punk", album: "Random Access Memories" },
-      { artista: "Arctic Monkeys", album: "AM" },
-      { artista: "Arctic Monkeys", album: "Whatever People Say I Am" },
-      // Adicione mais aqui
-    ];
-
-    const resultadosDiv = document.getElementById("resultados");
-    const filtrados = musicData.filter(item =>
-      item.artista.toLowerCase().includes(query) ||
-      item.album.toLowerCase().includes(query)
-    );
-
-    if (filtrados.length === 0) {
-      resultadosDiv.innerHTML = "<p>Nenhum resultado encontrado.</p>";
-    } else {
-      let html = "<table border='1' cellpadding='5' cellspacing='0' width='100%'>";
-      html += "<tr><th>Artista</th><th>Álbum</th></tr>";
-      filtrados.forEach(item => {
-        html += `<tr><td>${item.artista}</td><td>${item.album}</td></tr>`;
-      });
-      html += "</table>";
-      resultadosDiv.innerHTML = html;
+    function buscar() {
+      const query = document.getElementById('searchInput').value;
+      if (query.trim() !== "") {
+        window.location.href = `resultados.html?q=${encodeURIComponent(query)}`;
+      }
     }
   </script>
 
