@@ -17,13 +17,25 @@
     const query = params.get("q")?.toLowerCase() || "";
 
     const musicData = [
-      { artista: "Radiohead", album: "OK Computer", ano: "1997" },
-      { artista: "Radiohead", album: "Kid A", ano: "2000" },
-      { artista: "Daft Punk", album: "Discovery", ano: "2001" },
-      { artista: "Daft Punk", album: "Random Access Memories", ano: "2013" },
-      { artista: "Arctic Monkeys", album: "AM", ano: "2013" },
-      { artista: "Arctic Monkeys", album: "Whatever People Say I Am", ano: "2006" },
-      // Adicione mais aqui
+      {
+        artista: "Radiohead",
+        album: "OK Computer",
+        ano: "1997",
+        arquivo: "radiohead-ok-computer.zip"
+      },
+      {
+        artista: "Daft Punk",
+        album: "Discovery",
+        ano: "2001",
+        arquivo: "daft-punk-discovery.zip"
+      },
+      {
+        artista: "Arctic Monkeys",
+        album: "AM",
+        ano: "2013",
+        arquivo: "arctic-monkeys-am.zip"
+      },
+      // Adicione mais álbuns aqui
     ];
 
     const resultadosDiv = document.getElementById("resultados");
@@ -36,9 +48,14 @@
       resultadosDiv.innerHTML = "<p>Nenhum resultado encontrado.</p>";
     } else {
       let html = "<table border='1' cellpadding='5' cellspacing='0' width='100%'>";
-      html += "<tr><th>Artista</th><th>Álbum</th><th>Ano</th></tr>";
+      html += "<tr><th>Artista</th><th>Álbum</th><th>Ano</th><th>Download</th></tr>";
       filtrados.forEach(item => {
-        html += `<tr><td>${item.artista}</td><td>${item.album}</td><td>${item.ano}</td></tr>`;
+        html += `<tr>
+          <td>${item.artista}</td>
+          <td>${item.album}</td>
+          <td>${item.ano}</td>
+          <td><a href="albuns/${item.arquivo}" download>Baixar</a></td>
+        </tr>`;
       });
       html += "</table>";
       resultadosDiv.innerHTML = html;
