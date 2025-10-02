@@ -7,11 +7,18 @@
 
   <center>
     <h1>Arquivo Sonoro</h1>
-    <p><b>Bem-vindo ao meu acervo musical pessoal</b></p>
+    <p><b>Bem-vindo ao seu acervo musical </b></p>
+
+    <!-- Caixa de busca -->
+    <form>
+      <input type="text" id="searchInput" placeholder="Buscar música..." size="30">
+    </form>
+
     <hr width="80%">
   </center>
 
-  <table border="1" cellpadding="5" cellspacing="0" width="80%" align="center">
+  <!-- Tabela de músicas -->
+  <table id="musicTable" border="1" cellpadding="5" cellspacing="0" width="80%" align="center">
     <tr>
       <th>Artista</th>
       <th>Música</th>
@@ -32,8 +39,21 @@
 
   <br><hr width="80%">
   <center>
-    <p>© 2025 Arquivo Sonoro | <a href="mailto:contato@arquivosonoro.com">Contato</a></p>
+    <p>© 2025 Arquivo Sonoro | <a href="mailto:contato@arquivosonoro.gt.tc">Contato</a></p>
   </center>
+
+  <!-- Script de busca interna -->
+  <script>
+    document.getElementById('searchInput').addEventListener('keyup', function() {
+      var input = this.value.toLowerCase();
+      var rows = document.querySelectorAll('#musicTable tr');
+
+      for (var i = 1; i < rows.length; i++) {
+        var rowText = rows[i].textContent.toLowerCase();
+        rows[i].style.display = rowText.includes(input) ? '' : 'none';
+      }
+    });
+  </script>
 
 </body>
 </html>
