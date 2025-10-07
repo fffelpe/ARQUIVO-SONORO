@@ -1,27 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+  <meta charset="UTF-8">
   <title>Arquivo Sonoro</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input { width: 300px; padding: 8px; }
+    .album { margin-bottom: 15px; }
+  </style>
 </head>
-<body bgcolor="#FFFFFF" text="#000000">
+<body>
+  <h1>🔍 Buscar Álbuns</h1>
+  <input type="text" id="busca" placeholder="Digite o nome do artista ou álbum...">
+  <div id="resultados"></div>
 
-  <center>
-    <br><br><br>
-    <h1 style="font-size:48px; font-family:sans-serif;">Arquivo Sonoro</h1>
-    <form onsubmit="buscar(); return false;">
-      <input type="text" id="searchInput" placeholder="Buscar artista ou álbum..." size="40">
-      <input type="submit" value="Buscar">
-    </form>
-  </center>
-
-  <script>
-    function buscar() {
-      const query = document.getElementById('searchInput').value;
-      if (query.trim() !== "") {
-        window.location.href = `resultados.html?q=${encodeURIComponent(query)}`;
-      }
-    }
-  </script>
-
+  <script src="script.js"></script>
 </body>
 </html>
