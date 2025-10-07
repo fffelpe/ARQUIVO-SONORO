@@ -7,11 +7,21 @@
     body { font-family: Arial, sans-serif; padding: 20px; }
     input { width: 300px; padding: 8px; }
     .album { margin-bottom: 15px; }
+    /* Novo: centralizar o container de busca */
+    .busca-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
-  <h1>🔍 Buscar Álbuns</h1>
-  <input type="text" id="busca" placeholder="Digite o nome do artista ou álbum...">
+  <div class="busca-container">
+    <h1>Arquivo Sonoro</h1>
+    <input type="text" id="busca" placeholder="Digite o nome do artista ou álbum...">
+  </div>
   <div id="resultados"></div>
 
   <script src="script.js"></script>
