@@ -1,56 +1,456 @@
-[
-  {
-    "artista": "509-E",
-    "album": "MMII-DC",
-    "ano": null,
-    "link": "https://mega.nz/file/Bux1WTYZ#mXLLxpowenVyAxPNSUDGfb9Fp0_4MJwRtifsAQBRVzw"
-  },
-  {
-    "artista": "509-E",
-    "album": "Provérbios 13",
-    "ano": null,
-    "link": "https://mega.nz/file/wqJwxY7K#ZV0w-TKGLQy11IqG8ND1CCdEiqLQ0tFJIx7hZk9wSek"
-  },
-  {
-    "artista": "Anita Baker",
-    "album": "Songstress",
-    "ano": 1983,
-    "link": "https://mega.nz/file/1iQ3kCxJ#SyX7Q5Vq1b-l1V5-VkgZqrNC9cBIF66_3alHpuSRuus"
-  },
-  {
-    "artista": "Anita Baker",
-    "album": "Rapture",
-    "ano": 1986,
-    "link": "https://mega.nz/file/Uuwm0JxJ#D-4EFTyvPLBmzn4cyVKesqPrvvbm5YxVBtNNN9Qosfw"
-  },
-  {
-    "artista": "Anita Baker",
-    "album": "Giving You the Best That I Got",
-    "ano": 1988,
-    "link": "https://mega.nz/file/VzpF2RaI#JXGe84ttq69J6Rybg2s9UhjOHMa-VJRAcuttFjq9hAA"
-  },
-  {
-    "artista": "Anita Baker",
-    "album": "Compositions",
-    "ano": 1990,
-    "link": "https://mega.nz/file/EqJwXT5T#XaJj9PJJltfxMdHeC9W1nH0ZdRel6rGTQ6ougsIn8yA"
-  },
-  {
-    "artista": "Anita Baker",
-    "album": "Rhythm of Love",
-    "ano": 1994,
-    "link": "https://mega.nz/file/srZBUDwI#u1Ir7hoGUEfwGAQvxbagSn1qWAzPSjaOKMZS34S_HoE"
-  },
-  {
-    "artista": "Anita Baker",
-    "album": "My Everything",
-    "ano": 2004,
-    "link": "https://mega.nz/file/M7QCQTKY#74TSH8PWRbec46-qmYT3wx1DeZzHAJip4z1474kcTfM"
-  },
-  {
-    "artista": "Anita Baker",
-    "album": "Christmas Fantasy",
-    "ano": 2005,
-    "link": "https://mega.nz/file/U2hQxJDb#QZQKEz4kQ1KN_WeFWpr7Wh9_UTEogfiJOg9qM58W42c"
-  }
-]
+{
+  "OS FERAS DO BAILE": [
+    {
+      "album": "OS FERAS DO BAILE - CONTAGIANDO O FORRÃ.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!orowUIiJ!WOim3PeQzyQZITKdEBc63D0YQ9zqMi8oLObvkI1l-WA"
+    }
+  ],
+  "CRIOLO": [
+    {
+      "album": "[ 2017 ] ESPIRAL DE ILUSÃO.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!02ZFnRAI!NJcxb_vVgZAq0I-btOtYQU-ZF8AjKImYYufNiizvAV4"
+    },
+    {
+      "album": "[ 2014 ] CONVOQUE SEU BUDA.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!QiwnFaxI!BtWZqZkTPfkr_DUcmkfb3x0OETq8FQ13ws7qhUU6ibo"
+    },
+    {
+      "album": "[ 2011 ] AINDA HÃ TEMPO.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!N3oW0ZAI!QEQuRP5sZ2tsPGivYHNV8f8TZImE8dKNsqb4LlS0Z-A"
+    }
+  ],
+  "BRUNO E MARRONE": [
+    {
+      "album": "Sonhos, Planos, Fantasias.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!93YUyTpJ!KHTEjMVI_hN0ZysSClqynGjeswt62la3koxjpMKts6g"
+    },
+    {
+      "album": "InevitÃ¡vel.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!l2h23B6Q!Eqbqt87ug4x87kOZGzDHkcZrxv_gqRW3jbP8Cv66t7U"
+    }
+  ],
+  "RACIONAIS MC'S": [
+    {
+      "album": "(1990) Holocausto Urbano.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!Ez4k3bbb!uPPv4kdXtitwpZCbik534ZCZLSj33NZqPNPIa7s4fpg"
+    },
+    {
+      "album": "(1992) Escolha O Seu Caminho.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!x3ow1RCL!X9-_Jga_YM7cgzmB3bAC0pQBR38glCVIP6VUYmqI00U"
+    },
+    {
+      "album": "(1993) Raio-x do Brasil.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!VnxgiAJa!Ahy4lIAabd1oE5ftQHzoF5ipRWu1TvD8YSAWQtiB8k0"
+    },
+    {
+      "album": "(2001) Ao Vivo.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!MuIknKQD!Ko-JfKS8cUFtVaiL-9xPio5_ulwJwB-5cCj0doRe6DY"
+    },
+    {
+      "album": "(1998) Sobrevivendo ao Inferno.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!V6BUiKZC!xAcI3FKpjT5jkZ4DYu6s403rrpqTsahX-T3skgkIUlU"
+    },
+    {
+      "album": "(2006) 1000 Trutas 1000 Tretas.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!1zwBiBQJ!mAAs1DOEZBG7n3mN5JAF3sYZBVA3OD6k4F0BSM_Sw-k"
+    },
+    {
+      "album": "(2002) Nada Como 1 Dia ApÃ³s o Outro Dia.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!t2wUDBRQ!Zy-_v1ouQpUojEpK1Bad6glOg7U59IbfWLiiEQ7sx6Y"
+    }
+  ],
+  "SABOTAGE": [
+    {
+      "album": "Sabotage - Sabotage (2016).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!F2gi2YQS!RzIiTU2j4JYs7BzsPABzf08aN1xpLPRuoFcmnuaX5hQ"
+    },
+    {
+      "album": "Sabotage - Rap Ã Compromisso (2001)-.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!sqAClYIR!PMqo0OQ4FAWTsY54vv12ZA1T1nEjef4XkioK37rUnbw"
+    }
+  ],
+  "AS 100 MAIS ANTENA 1": [
+    {
+      "album": "As 100 Mais Da Antena 1 - Volume 3 (Ãlbum 6).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!YuxCAZ7L!C2OpQkdFmMztdJpCsgiSE8mzfyrZLMzu38x5QjaN6IA"
+    },
+    {
+      "album": "As 100 Mais Da Antena 1 - Volume 3 (Ãlbum 5).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!5iBgyCyY!yo66cjGKSDxhgIlFt0Uo0Z7oIMxa9ld8PgIDGjF30sQ"
+    },
+    {
+      "album": "As 100 Mais Da Antena 1 - Volume 3 (Ãlbum 2).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!lzISnAwR!v4cHefRC4Sp4RnqzZKoYYOkypX5EGvW4H3AGDlG9ldU"
+    },
+    {
+      "album": "As 100 Mais Da Antena 1 - Volume 3 (Ãlbum 3).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!U2QkzSDT!uznXciZOxXh9vOGmhjxTX_kgxb3PVui-_TQtAwb-43I"
+    },
+    {
+      "album": "As 100 Mais Da Antena 1 - Volume 3 (Ãlbum 1).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!dngnHYpZ!Yamm3FzCUenf_EKiZOm0TGF2gqx2Bp9bJxKX_zy_pTo"
+    },
+    {
+      "album": "As 100 Mais Da Antena 1 - Volume 3 (Ãlbum 4).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!c3xXxbDB!ohl0_NeeNKiPG1uvrkl2xKaJVFdvU6sM2uJ_mqfhMwA"
+    }
+  ],
+  "509-E": [
+    {
+      "album": "509-E - ProvÃ©rbios 13.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!wqJwxY7K!ZV0w-TKGLQy11IqG8ND1CCdEiqLQ0tFJIx7hZk9wSek"
+    },
+    {
+      "album": "509-E - MMII-DC.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!Bux1WTYZ!mXLLxpowenVyAxPNSUDGfb9Fp0_4MJwRtifsAQBRVzw"
+    }
+  ],
+  "NOVELAS": [
+    {
+      "album": "BELÃSSIMA- INTERNACIONAL [2005].7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!0igS1BiC!4xA0knvboG5wKFqNPdolfRZlEpn4gLTSV_IVAREu2Kw"
+    },
+    {
+      "album": "VIVER A VIDA - INTERNACIONAL [2010].7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!53oGnQRQ!mcxd9m6C-1xWSmuo69aht5Av1AABOv1ZaLw0owlp1eI"
+    },
+    {
+      "album": "CAMINHO DAS ÃNDIAS  - [ INTERNACIONAL ] 2009.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!gqJFwIyQ!HoMzMzYQJLMzBeaDOVLY8sB-72tcGF4UpI-8zfI5ksg"
+    },
+    {
+      "album": "ESPERANÃA - NACIONAL [ XXXX].7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!luxGyKSI!RYNurrWrhiEN_RPS3-N6OFiAZY_NUGYkvzPw4ouEyhA"
+    },
+    {
+      "album": "CARA & COROA - INTERNACIONAL [ 1995 ].7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!pr50QSab!E3STgqRCDWk1I70UdO-yWLgC97Fn7OUwaZAU1A6iCGM"
+    },
+    {
+      "album": "AS FILHAS DA MÃE - INTERNACIONAL [2001].7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!wrYhHTrT!Z3WKPHfiyo3CKKUOgL0gaVbSaeGcgASbxWwqx-22lMM"
+    },
+    {
+      "album": "MALHAÃÃO - INTERNACIONAL [ 2003 ].7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!0qJQjYQa!3Q_BO99MV-R-o7nMr9L5eYGoEMN1I3y_nhiu-I5MvMw"
+    },
+    {
+      "album": "CAMINHO DAS ÃNDIAS -  [ NACIONAL ] - 2009.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!l3hD0AIA!eJ4coJVBewp0SnySU_FkRx38lop2-tR3ZHQHsZ6mUgA"
+    },
+    {
+      "album": "O CLONE - INTERNACIONAL [2002].7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!snBXGSgA!XUr49b8dEy8a5lmOjc51uPS9QDQB1NEsivI6eN-FpUU"
+    },
+    {
+      "album": "POR AMOR - INTERNACIONAL [ 1997].7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!tnI2RILC!nZ6uVuRiJ-NGpJyBhcvVMydYv0y9_5etaKQn-fNfEso"
+    },
+    {
+      "album": "ANJO MAU - INTERNACIONAL [1997].7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!RmgwFapR!q6d3YHCC0djartR6LOS8N4C4AAdExCkU43f2ojE7YvE"
+    }
+  ],
+  "BLACK TOTAL": [
+    {
+      "album": "Black Total 2003.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!o2ARCSrB!8injAU3ADKWqyaCbkf6Ek8OtHU9JmO4G13WpiVi56X8"
+    },
+    {
+      "album": "BLACK TOTAL 2001.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!97wlkC6Q!5jTENBMX8StyLx6AdOtOIqvhTaf45tC0L2lmL2i-MSE"
+    },
+    {
+      "album": "BLACK TOTAL 99.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!d3QD2SLT!d6j7cV6tpOPKg4vMgT93M90M5iWe2ryMSJ0eDKQz3xM"
+    },
+    {
+      "album": "Black Total 2004.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!t3hXyZ5a!pXbhTXYVVdYYppSF4QQwxuEQaM6ZERPvLr3e8lLppk4"
+    },
+    {
+      "album": "Black Total 2002.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!8q5XSYDD!vyTXmqQwD4lit3rlbY18O5FgMVkQKsdWFl9NU7yydr8"
+    },
+    {
+      "album": "BLACK TOTAL 98.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!hrh0WTYB!a7_9lb0wh91d09v6wVbOn4flcbw2sHOYOQL5BKBWEyg"
+    },
+    {
+      "album": "Black Total 2005.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!tzIzALAQ!FcxekJQLF8XM6TyjpJarBGQkmXmQABPG4fzaFGUQokg"
+    }
+  ],
+  "ANITA BAKER": [
+    {
+      "album": "[1988] Baker, Anita - Giving You the Best That I Got.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!VzpF2RaI!JXGe84ttq69J6Rybg2s9UhjOHMa-VJRAcuttFjq9hAA"
+    },
+    {
+      "album": "[1986] Baker, Anita - Rapture.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!Uuwm0JxJ!D-4EFTyvPLBmzn4cyVKesqPrvvbm5YxVBtNNN9Qosfw"
+    },
+    {
+      "album": "[2005] Baker, Anita - Christmas Fantasy.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!U2hQxJDb!QZQKEz4kQ1KN_WeFWpr7Wh9_UTEogfiJOg9qM58W42c"
+    },
+    {
+      "album": "[1983] Baker, Anita - Songstress.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!1iQ3kCxJ!SyX7Q5Vq1b-l1V5-VkgZqrNC9cBIF66_3alHpuSRuus"
+    },
+    {
+      "album": "[2004] Baker, Anita - My Everything.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!M7QCQTKY!74TSH8PWRbec46-qmYT3wx1DeZzHAJip4z1474kcTfM"
+    },
+    {
+      "album": "[1990] Baker, Anita - Compositions.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!EqJwXT5T!XaJj9PJJltfxMdHeC9W1nH0ZdRel6rGTQ6ougsIn8yA"
+    },
+    {
+      "album": "[1994] Baker, Anita - Rhythm of Love.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!srZBUDwI!u1Ir7hoGUEfwGAQvxbagSn1qWAzPSjaOKMZS34S_HoE"
+    }
+  ],
+  "CHRIS KORDA": [
+    {
+      "album": "TheManOfTheFuture.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!o7gF1B5T!egTuCTaqjIW6AHaZ-S3PcX3TCMUmI6grGu_4EipGmlQ"
+    },
+    {
+      "album": "12IJustCantLetGo.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!VnIwgTZR!73kO_0VDkkTqKUFoKmW7TnHKyU9zj2kqIj4Wrw0YL2o"
+    }
+  ],
+  "SAN CISCO": [
+    {
+      "album": "[ 2012 ] San Cisco.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!szxQlLiS!IfMs-qSCZuqe24Y8m_viRjJEEKgQV7-oRfAo2J6BWng"
+    },
+    {
+      "album": "[ 2015 ] Gracetown.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!gzIQzS4Z!NnpjLh6lyv7aAvdKeRAwLrkvW7NSUaP89CjnalFA1vQ"
+    }
+  ],
+  "RATOS DE PORÃO": [
+    {
+      "album": "1984 - Crucificados Pelo Sistema.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!I75GFL7B!EcMURZRDp7oJn_1IzofovDFoizMGUM4o7GxmHxVeOPA"
+    },
+    {
+      "album": "Ratos de PorÃ£o - Descanse Em Paz (1986).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!F3oAwZxQ!RyC3BcZMWWqrLU2O82KkHob5t4oAcvS0Gghe0pz3A48"
+    },
+    {
+      "album": "2000 - Guerra Civil Canibal (EP) (320).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!h7RnUaYZ!z6eHYy114ooCHtE93tAYxgZ7bp69BXAyZ57cTkX-53g"
+    },
+    {
+      "album": "Ratos de PorÃ£o - Cada Dia Mais Sujo e Agressivo (1987).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!12hGiJoB!2tvv82QaIoTV8YUtft6eIa48_PWBLlqxSL8U-t0h4O8"
+    },
+    {
+      "album": "2006 - Homem Inimigo do Homem (320).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!83YnGDwb!vnZQXE3uI3svqAvYs4OuYEDPp_1iX5Bmf1Rmwlqvl6Y"
+    },
+    {
+      "album": "2002 - Onisciente Coletivo (320).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!t6gy0ZgB!JB7lOzNHfFs4I9dqYWzNC2sjfGwGJgGFymp7_BAHg6c"
+    },
+    {
+      "album": "1997 - Carniceria Tropical (320).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!pvwkBAYJ!oeyAkgF-6mPDkMIbY0NK4QjrCjjDt9Y43TnIV_eg06Q"
+    },
+    {
+      "album": "RDP - Sistemados Pelo Crucifa.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!gmI3wSZA!nTGR2vSxbuHn1bO7prszJojHGtuKCnGeAZyCNDDh550"
+    },
+    {
+      "album": "Ratos De PorÃ£o - 1989 - _Brasil_.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!guRTkaLb!MnrhTjLRLz68yJlmqxgDJrvNqunrdsvDqT55AR80XU8"
+    },
+    {
+      "album": "Anarkophobia - 1990.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!w2pUmbhJ!l5X1Fc38MymbNz0nX3z1qvZGoADn_Ef86U8-pPtmzyM"
+    }
+  ],
+  "MR JUKES": [
+    {
+      "album": "[ 2021 ] THE LOCKET.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!dnpi0CJS!jk1P76_D8kN-vGZM4yb22uVJqGwsCF4cvfwUn64srpE"
+    },
+    {
+      "album": "[ 2017 ] GOD FIRST.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!hjZi3aYQ!NX-qxDjhnNvKJ5m5ecN_8lbvDPK_OLX_iGEITuULsQM"
+    }
+  ],
+  "JUSTICE": [
+    {
+      "album": "â +.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!UnBUnQhQ!RStPuPdcx5Ndb3GIgjiOxMYv9ZTYAA616JZ8AUTvmUA"
+    },
+    {
+      "album": "Productions & Remixes.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!NixHgaRY!i94KB_4W9uvlh-UynBWJ0L7Lgkn7QZDUfxRcqv6BmGo"
+    },
+    {
+      "album": "Justice - Audio, Video, Disco (2011).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!Nr5TVJob!Rwy-UmcAqefCNeHT0VpqGCOu3dkI7Vqy8tRoulYqito"
+    },
+    {
+      "album": "â .7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!c6IFmIpK!yfDCGNWG_RqWAH_FB6f_Xhl4Q-2kLfa3iEk8ogBheCI"
+    },
+    {
+      "album": "A Cross The Universe.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!QjgGgYiA!98k8aPvfijTK62qjJSN-vumW4KlWrjqfP9aVzWqKA_A"
+    },
+    {
+      "album": "Justice - Woman Worldwide (320).7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!Nz5QVLqL!uFpEfQJP9jPbpqeivI-vNv0uXbslnqYHhpr15TLDc1k"
+    },
+    {
+      "album": "Justice - Woman.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!5qZkkTCC!GhqVB5IeggFEPN8fwjQqa9t0l1aHSqzy5wXvMasrjzA"
+    }
+  ],
+  "SILVA": [
+    {
+      "album": "[ 2015 ] JÃPITER.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!Y2pjlaRb!uI1sxZaKeB7BQz3lOYjdJDeL8uUxuzuBEUMsiYHuHz0"
+    },
+    {
+      "album": "[ 2020 ] CINCO.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!F7IzTJTB!h5SdfoANBhuBX4f0JT6C0yr-uOlfY0c8T9UvRXtZ0Bk"
+    },
+    {
+      "album": "[ 2014 ] VISTA PRO MAR.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!gvA2WIKT!2EhAw0uVhulSigAutbcFfoVZMO39x22AOAcBiMAOyss"
+    },
+    {
+      "album": "[ 2018 ] BRASILEIRO.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!o3YymL5Q!kTAKUMZoAK-8q1hgaCm_VW--iwRVI6Eiub8VsCdAvGQ"
+    }
+  ],
+  "SIMPLY RED": [
+    {
+      "album": "[1989] A New Flame.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!gj4SSCJT!bgyyGLh_ncWaNdAo9JFYeRixvUxhbtzAKs1hWQyDJNY"
+    },
+    {
+      "album": "[1987] Men and Women.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!hmQCkZCZ!ofFsyMI2Ypydsr0wTH2XyrdknrOCQYB5Aii2sh1qNAY"
+    },
+    {
+      "album": "[1999] Love and The Russian Winter.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!JyRVxKYL!axhutoiCjT2jCCUc7Grt52cqqP82sOxAUjHRvXtSayA"
+    },
+    {
+      "album": "[1985] Picture Book.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!ZvgVVKZT!y_mMJSwj6YrAPLOIa1XSaz9jHIo9dW5HaD4K4IBnsI8"
+    },
+    {
+      "album": "[2007] Stay.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!E6RB0bxL!MGsRk0bVbwwtsDuMux8LKA3YJttRm62tYODm-7LZsjg"
+    },
+    {
+      "album": "[1995] Life.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!IuRBASyL!B-teV7mdZ60ldVkk1Np6o_dxse50OIx-X6OGUQT36PI"
+    },
+    {
+      "album": "[2005] Simplified.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!ku4hwI7I!m-ERiXAvIP-6oPyGZNAJm4Fyss7PH1V2arrWWzm6EQc"
+    },
+    {
+      "album": "[1998] Blue.7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!E7AQTaJJ!JIH55_UQUS32FjN79ynfNcEFHWlFsW0xXQn_N06VZ2M"
+    },
+    {
+      "album": "[1991] Stars [2CD Collectors Edition, 2008].7z",
+      "ano": null,
+      "link": "https://mega.co.nz/#!kywhnTLR!B_8ASa-nxRSCwQmGaWLTsaDYauD5ewWGSvhAK98KTyo"
+    }
+  ]
+}
