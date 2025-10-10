@@ -133,17 +133,34 @@
     <p>&copy; 2025 Arquivo Sonoro – Projeto sem fins lucrativos para a preservação da música.</p>
   </footer>
 
-  <script>
-    function filtrarArtistas() {
-      const input = document.getElementById('searchBar').value.toLowerCase();
-      const lista = document.getElementById('listaArtistas').getElementsByTagName('li');
-      for (let i = 0; i < lista.length; i++) {
-        const texto = lista[i].textContent.toLowerCase();
-        lista[i].style.display = texto.includes(input) ? '' : 'none';
-      }
+ <script>
+  function filtrarArtistas() {
+    const input = document.getElementById('searchBar').value.toLowerCase();
+    const lista = document.getElementById('listaArtistas').getElementsByTagName('li');
+    for (let i = 0; i < lista.length; i++) {
+      const texto = lista[i].textContent.toLowerCase();
+      lista[i].style.display = texto.includes(input) ? '' : 'none';
     }
-  </script>
+  }
+
+  // 🔠 Ordenar artistas por nome ao carregar a página
+  window.addEventListener('DOMContentLoaded', () => {
+    const lista = document.getElementById('listaArtistas');
+    const itens = Array.from(lista.querySelectorAll('li'));
+
+    itens.sort((a, b) => {
+      const nomeA = a.textContent.trim().toLowerCase();
+      const nomeB = b.textContent.trim().toLowerCase();
+      return nomeA.localeCompare(nomeB);
+    });
+
+    lista.innerHTML = '';
+    itens.forEach(item => lista.appendChild(item));
+  });
+</script>
+
 </body>
 </html>
+
 
 
