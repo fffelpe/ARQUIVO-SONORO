@@ -67,28 +67,31 @@
     const artistas = [
       { nome: "509-E", pagina: "509-e.html" },
       { nome: "Anita Baker", pagina: "anita-baker.html" },
+      { nome: "Arctic Monkeys", pagina: "arctic-monkeys.html" },
       { nome: "As 100 Mais Antena 1", pagina: "as-100-mais-antena-1.html" },
       { nome: "Black Total", pagina: "black-total.html" },
-      { nome: "Chris Korda", pagina: "chris-korda.html" },
-      { nome: "Criolo", pagina: "criolo.html" },
-      { nome: "Justice", pagina: "justice.html" },
-      { nome: "Tame Impala", pagina: "tame-impala.html" },
       { nome: "Broncho", pagina: "broncho.html" },
-      { nome: "Mild High Club", pagina: "mild-high-club.html" },
-      { nome: "DIIV", pagina: "diiv.html" },
-      { nome: "Toro y Moi", pagina: "toro-y-moi.html" },
-      { nome: "Metronomy", pagina: "metronomy.html" },
-      { nome: "Daft Punk", pagina: "daft-punk.html" },
-      { nome: "Ratos de Porão", pagina: "ratos-de-porao.html" },
-      { nome: "Disclosure", pagina: "disclosure.html" },
-      { nome: "Arctic Monkeys", pagina: "arctic-monkeys.html" },
+      { nome: "Chris Korda", pagina: "chris-korda.html" },
       { nome: "Copacabana Club", pagina: "copacabana-club.html" },
+      { nome: "Criolo", pagina: "criolo.html" },
+      { nome: "Daft Punk", pagina: "daft-punk.html" },
+      { nome: "DIIV", pagina: "diiv.html" },
+      { nome: "Disclosure", pagina: "disclosure.html" },
       { nome: "Dr. Dre", pagina: "dr-dre.html" },
+      { nome: "Justice", pagina: "justice.html" },
+      { nome: "Metronomy", pagina: "metronomy.html" },
+      { nome: "Mild High Club", pagina: "mild-high-club.html" },
+      { nome: "Ratos de Porão", pagina: "ratos-de-porao.html" },
+      { nome: "Tame Impala", pagina: "tame-impala.html" },
+      { nome: "The Growlers", pagina: "the-growlers.html" },
       { nome: "The Internet", pagina: "the-internet.html" },
       { nome: "The xx", pagina: "the-xx.html" },
-      { nome: "The Growlers", pagina: "the-growlers.html" },
+      { nome: "Toro y Moi", pagina: "toro-y-moi.html" }
       // Adicione mais artistas aqui...
     ];
+
+    // ✅ Ordena os artistas em ordem alfabética
+    artistas.sort((a, b) => a.nome.localeCompare(b.nome));
 
     const porPagina = 30;
     let paginaAtual = 0;
@@ -116,6 +119,7 @@
     function filtrarArtistas() {
       const termo = document.getElementById("barraPesquisa").value.toLowerCase();
       artistasFiltrados = artistas.filter(a => a.nome.toLowerCase().includes(termo));
+      artistasFiltrados.sort((a, b) => a.nome.localeCompare(b.nome)); // mantém ordenado após filtro
       paginaAtual = 0;
       renderizarArtistas();
     }
@@ -136,10 +140,9 @@
 
     renderizarArtistas();
   </script>
+
   <footer>
     <p style="text-align:center; margin-top:40px;">Projeto cultural sem fins lucrativos. Arquivo Sonoro © 2025</p>
   </footer>
 </body>
 </html>
-
-
