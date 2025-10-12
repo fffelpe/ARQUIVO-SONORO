@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 900px;
+      max-width: 1000px;
       margin: 0 auto;
       padding: 20px;
       background-color: #fff;
@@ -22,19 +22,24 @@
       margin-bottom: 20px;
       font-size: 1em;
     }
-    ul {
-      list-style: none;
-      padding: 0;
+    #lista-artistas {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
     }
-    li {
-      margin-bottom: 10px;
-    }
-    a {
-      color: #0066cc;
+    #lista-artistas a {
+      display: block;
+      padding: 10px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      text-align: center;
       text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
+      transition: background-color 0.3s;
     }
-    a:hover {
-      text-decoration: underline;
+    #lista-artistas a:hover {
+      background-color: #e0e0e0;
     }
     #pagination {
       text-align: center;
@@ -51,7 +56,7 @@
   <h1>Arquivo Sonoro</h1>
   <input type="text" id="barraPesquisa" placeholder="🔍 Pesquisar artista..." oninput="filtrarArtistas()">
 
-  <ul id="lista-artistas"></ul>
+  <div id="lista-artistas"></div>
 
   <div id="pagination">
     <button id="btnAnterior" disabled>← Anterior</button>
@@ -98,9 +103,10 @@
       const artistasPagina = artistasFiltrados.slice(inicio, fim);
 
       artistasPagina.forEach(artista => {
-        const li = document.createElement("li");
-        li.innerHTML = `<a href="paginas/${artista.pagina}">${artista.nome}</a>`;
-        lista.appendChild(li);
+        const link = document.createElement("a");
+        link.href = `paginas/${artista.pagina}`;
+        link.textContent = artista.nome;
+        lista.appendChild(link);
       });
 
       document.getElementById("btnAnterior").disabled = paginaAtual === 0;
