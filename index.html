@@ -2,187 +2,137 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Arquivo Sonoro – Download de Discografias Completas Raras e Importantes</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Preserve, descubra e compartilhe discografias completas, raras e importantes da história da música para download gratuito via MEGA.">
-  <meta name="keywords" content="arquivo sonoro, discografia completa, download música, raridades, música rara, mega, mp3, discografias, história da música, download grátis, artistas, álbuns completos, coleção musical, preservação musical">
-  <meta name="robots" content="index,follow">
-  <link rel="canonical" href="https://fffelpe.github.io/ARQUIVO-SONORO/index.html">
-  <link rel="icon" href="https://fffelpe.github.io/ARQUIVO-SONORO/favicon.png" type="image/png">
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:title" content="Arquivo Sonoro – Discografias Completas para Download Grátis">
-  <meta property="og:description" content="Acesse discografias completas e raras de artistas nacionais e internacionais para download gratuito. Descubra e preserve a história da música!">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://fffelpe.github.io/ARQUIVO-SONORO/index.html">
-  <meta property="og:image" content="https://fffelpe.github.io/ARQUIVO-SONORO/capa-arquivo-sonoro.jpg">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Arquivo Sonoro – Discografias Completas para Download Grátis">
-  <meta name="twitter:description" content="Acesse discografias completas e raras de artistas nacionais e internacionais para download gratuito. Descubra e preserve a história da música!">
-  <meta name="twitter:image" content="https://fffelpe.github.io/ARQUIVO-SONORO/capa-arquivo-sonoro.jpg">
-
-  <!-- Structured Data: Schema.org -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Arquivo Sonoro",
-    "url": "https://fffelpe.github.io/ARQUIVO-SONORO/",
-    "description": "Discografias completas e raras para download gratuito. Descubra e preserve a história da música.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Arquivo Sonoro"
-    }
-  }
-  </script>
-
+  <title>Arquivo Sonoro – Acervo Musical</title>
+  <meta name="description" content="Explore o acervo musical do Arquivo Sonoro com discografias completas de artistas nacionais e internacionais.">
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 1000px;
+      max-width: 900px;
       margin: 0 auto;
       padding: 20px;
       background-color: #fff;
       color: #333;
     }
-    h1, h2 {
+    h1 {
       text-align: center;
     }
-    p {
-      text-align: center;
-      font-size: 1.1em;
-      margin-bottom: 30px;
-    }
-    #searchBar {
-      display: block;
-      margin: 0 auto 20px auto;
+    input[type="text"] {
+      width: 100%;
       padding: 10px;
-      width: 80%;
+      margin-bottom: 20px;
       font-size: 1em;
-      border: 1px solid #ccc;
-      border-radius: 5px;
     }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-      gap: 15px;
+    ul {
       list-style: none;
       padding: 0;
     }
-    .grid li {
+    li {
       margin-bottom: 10px;
     }
-    .grid a {
+    a {
       color: #0066cc;
       text-decoration: none;
-      font-size: 1em;
     }
-    .grid a:hover {
+    a:hover {
       text-decoration: underline;
     }
-    footer {
-      margin-top: 40px;
-      font-size: 0.9em;
-      color: #777;
+    #pagination {
       text-align: center;
+      margin-top: 30px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Arquivo Sonoro</h1>
-    <h2>Discografias Completas para Download Gratuito</h2>
-    <p>Preserve, descubra e compartilhe obras musicais raras e importantes da história da música.<br>
-      Faça download gratuito de discografias completas de diversos artistas nacionais e internacionais.</p>
-  </header>
+  <h1>Arquivo Sonoro</h1>
+  <input type="text" id="barraPesquisa" placeholder="🔍 Pesquisar artista..." oninput="filtrarArtistas()">
 
-  <input type="text" id="searchBar" placeholder="🔍 Pesquise por artista, álbum ou estilo..." onkeyup="filtrarArtistas()">
+  <ul id="lista-artistas"></ul>
 
-  <main>
-    <nav aria-label="Lista de Discografias">
-      <ul class="grid" id="listaArtistas">
-        <li><a href="paginas/509-e.html">509-E</a></li>
-        <li><a href="paginas/anita-baker.html">ANITA BAKER</a></li>
-        <li><a href="paginas/dr-dre.html">DR DRE</a></li>
-        <li><a href="paginas/as-100-mais-antena-1.html">AS 100 MAIS ANTENA 1</a></li>
-        <li><a href="paginas/black-total.html">BLACK TOTAL</a></li>
-        <li><a href="paginas/bruno-e-marrone.html">BRUNO E MARRONE</a></li>
-        <li><a href="paginas/chris-korda.html">CHRIS KORDA</a></li>
-        <li><a href="paginas/criolo.html">CRIOLO</a></li>
-        <li><a href="paginas/justice.html">JUSTICE</a></li>
-        <li><a href="paginas/mr-jukes.html">MR JUKES</a></li>
-        <li><a href="paginas/novelas.html">NOVELAS</a></li>
-        <li><a href="paginas/racionais-mcs.html">RACIONAIS MC'S</a></li>
-        <li><a href="paginas/ratos-de-porao.html">RATOS DE PORÃO</a></li>
-        <li><a href="paginas/sabotage.html">SABOTAGE</a></li>
-        <li><a href="paginas/san-cisco.html">SAN CISCO</a></li>
-        <li><a href="paginas/silva.html">SILVA</a></li>
-        <li><a href="paginas/simply-red.html">SIMPLY RED</a></li>
-        <li><a href="paginas/tame-impala.html">TAME IMPALA</a></li>
-        <li><a href="paginas/travis-scott.html">TRAVIS SCOTT</a></li>
-        <li><a href="paginas/toro-y-moi.html">TORO Y MOI</a></li>
-        <li><a href="paginas/metronomy.html">METRONOMY</a></li>
-        <li><a href="paginas/broncho.html">BRONCHO</a></li>
-        <li><a href="paginas/mild-high-club.html">MILD HIGH CLUB</a></li> 
-        <li><a href="paginas/diiv.html">DIIV</a></li>
-        <li><a href="paginas/daft-punk.html">DAFT PUNK</a></li>
-        <li><a href="paginas/disclosure.html">DISCLOSURE</a></li>
-        <li><a href="paginas/arctic-monkeys.html">ARCTIC MONKEYS</a></li>
-        <li><a href="paginas/copacabana-club.html">COPACABANA CLUB</a></li>
-        <li><a href="paginas/the-internet.html">THE INTERNET</a></li>
-        <li><a href="paginas/the-xx.html">THE XX</a></li>
-      </ul>
-    </nav>
-  </main>
+  <div id="pagination">
+    <button id="btnAnterior" disabled>← Anterior</button>
+    <button id="btnProximo">Próxima →</button>
+  </div>
 
-  <footer>
-    <p>&copy; 2025 Arquivo Sonoro – Projeto sem fins lucrativos para a preservação da música.</p>
-  </footer>
+  <script>
+    const artistas = [
+      { nome: "509-E", pagina: "509-e.html" },
+      { nome: "Anita Baker", pagina: "anita-baker.html" },
+      { nome: "As 100 Mais Antena 1", pagina: "as-100-mais-antena-1.html" },
+      { nome: "Black Total", pagina: "black-total.html" },
+      { nome: "Chris Korda", pagina: "chris-korda.html" },
+      { nome: "Criolo", pagina: "criolo.html" },
+      { nome: "Justice", pagina: "justice.html" },
+      { nome: "Tame Impala", pagina: "tame-impala.html" },
+      { nome: "Broncho", pagina: "broncho.html" },
+      { nome: "Mild High Club", pagina: "mild-high-club.html" },
+      { nome: "DIIV", pagina: "diiv.html" },
+      { nome: "Toro y Moi", pagina: "toro-y-moi.html" },
+      { nome: "Metronomy", pagina: "metronomy.html" },
+      { nome: "Daft Punk", pagina: "daft-punk.html" },
+      { nome: "Ratos de Porão", pagina: "ratos-de-porao.html" },
+      { nome: "Disclosure", pagina: "disclosure.html" },
+      { nome: "Arctic Monkeys", pagina: "arctic-monkeys.html" },
+      { nome: "Copacabana Club", pagina: "copacabana-club.html" },
+      { nome: "Dr. Dre", pagina: "dr-dre.html" },
+      { nome: "The Internet", pagina: "the-internet.html" },
+      { nome: "The xx", pagina: "the-xx.html" },
+      { nome: "The Growlers", pagina: "the-growlers.html" },
+      // Adicione mais artistas aqui...
+    ];
 
- <script>
-  function filtrarArtistas() {
-    const input = document.getElementById('searchBar').value.toLowerCase();
-    const lista = document.getElementById('listaArtistas').getElementsByTagName('li');
-    for (let i = 0; i < lista.length; i++) {
-      const texto = lista[i].textContent.toLowerCase();
-      lista[i].style.display = texto.includes(input) ? '' : 'none';
+    const porPagina = 30;
+    let paginaAtual = 0;
+    let artistasFiltrados = [...artistas];
+
+    function renderizarArtistas() {
+      const lista = document.getElementById("lista-artistas");
+      lista.innerHTML = "";
+
+      const inicio = paginaAtual * porPagina;
+      const fim = inicio + porPagina;
+      const artistasPagina = artistasFiltrados.slice(inicio, fim);
+
+      artistasPagina.forEach(artista => {
+        const li = document.createElement("li");
+        li.innerHTML = `<a href="paginas/${artista.pagina}">${artista.nome}</a>`;
+        lista.appendChild(li);
+      });
+
+      document.getElementById("btnAnterior").disabled = paginaAtual === 0;
+      document.getElementById("btnProximo").disabled = fim >= artistasFiltrados.length;
     }
-  }
 
-  // 🔠 Ordenar artistas por nome ao carregar a página
-  window.addEventListener('DOMContentLoaded', () => {
-    const lista = document.getElementById('listaArtistas');
-    const itens = Array.from(lista.querySelectorAll('li'));
+    function filtrarArtistas() {
+      const termo = document.getElementById("barraPesquisa").value.toLowerCase();
+      artistasFiltrados = artistas.filter(a => a.nome.toLowerCase().includes(termo));
+      paginaAtual = 0;
+      renderizarArtistas();
+    }
 
-    itens.sort((a, b) => {
-      const nomeA = a.textContent.trim().toLowerCase();
-      const nomeB = b.textContent.trim().toLowerCase();
-      return nomeA.localeCompare(nomeB);
+    document.getElementById("btnAnterior").addEventListener("click", () => {
+      if (paginaAtual > 0) {
+        paginaAtual--;
+        renderizarArtistas();
+      }
     });
 
-    lista.innerHTML = '';
-    itens.forEach(item => lista.appendChild(item));
-  });
-</script>
+    document.getElementById("btnProximo").addEventListener("click", () => {
+      if ((paginaAtual + 1) * porPagina < artistasFiltrados.length) {
+        paginaAtual++;
+        renderizarArtistas();
+      }
+    });
 
+    renderizarArtistas();
+  </script>
+
+  <footer>
+    <p style="text-align:center; margin-top:40px;">Projeto cultural sem fins lucrativos. Arquivo Sonoro © 2025</p>
+  </footer>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
