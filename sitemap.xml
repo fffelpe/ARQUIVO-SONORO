@@ -3,101 +3,42 @@
 
   <url>
     <loc>https://fffelpe.github.io/ARQUIVO-SONORO/</loc>
-    <lastmod>2025-10-10</lastmod>
+    <lastmod>2025-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/509-e.html</loc>
-    <lastmod>2025-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/index.html</loc><priority>1.0</priority></url>
+  
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/509-e.html</loc><priority>0.8</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/anita-baker.html</loc><priority>0.8</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/as-100-mais-antena-1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/black-total.html</loc><priority>0.8</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/chris-korda.html</loc><priority>0.8</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/criolo.html</loc><priority>0.8</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/justice.html</loc><priority>0.8</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/tame-impala.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/broncho.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/mild-high-club.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/diiv.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/toro-y-moi.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/metronomy.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/daft-punk.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/ratos-de-porao.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/disclosure.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/arctic-monkeys.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/tyler-the-creator.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/playboi-carti.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/stromae.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/travis-scott.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/the-strokes.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/alpine.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/the-bird-and-the-bee.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/the-drums.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/washed-out.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/phoenix.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/the-vaccines.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/unknown-mortal-orchestra.html</loc><priority>0.9</priority></url>
+  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/the-kooks.html</loc><priority>0.9</priority></url>
 
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/anita-baker.html</loc>
-    <lastmod>2025-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/as-100-mais-antena-1.html</loc>
-    <lastmod>2025-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/black-total.html</loc>
-    <lastmod>2025-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/chris-korda.html</loc>
-    <lastmod>2025-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/criolo.html</loc>
-    <lastmod>2025-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/justice.html</loc>
-    <lastmod>2025-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/tame-impala.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/broncho.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/mild-high-club.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/diiv.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/toro-y-moi.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/metronomy.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/daft-punk.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/ratos-de-porao.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/disclosure.html</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/arctic-monkeys.html</loc>
-    <priority>0.9</priority>
-  </url>
 </urlset>
