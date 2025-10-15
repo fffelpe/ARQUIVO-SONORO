@@ -1,0 +1,20 @@
+Arquivo Sonoro – Histórico de Versões
+
+Versão: 1.0.0
+Data: 15/10/2025
+
+Novidades:
+- Estrutura inicial do site criada com index.html
+- Páginas de artistas adicionadas (mais de 70 nomes)
+- Página de reportes da comunidade (reportar.html)
+- Sitemap.xml e catalogo.json atualizados
+- PWA ativado com manifest.json e service-worker.js
+- Página de erro personalizada (404.html)
+- Arquivo .htaccess com cache, segurança e redirecionamento
+- Meta-tags otimizadas para SEO e redes sociais (meta-tags.html)
+
+Próximos passos:
+- Adicionar busca por artista
+- Criar página "Contribua"
+- Integrar formulário com backend ou Google Forms
+- Gerar thumbnails automáticas para cada artista
