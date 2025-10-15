@@ -1,44 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Página inicial -->
   <url>
-    <loc>https://fffelpe.github.io/ARQUIVO-SONORO/</loc>
-    <lastmod>2025-10-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://arquivosonoro.site/index.html</loc>
     <priority>1.0</priority>
   </url>
 
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/index.html</loc><priority>1.0</priority></url>
-  
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/509-e.html</loc><priority>0.8</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/anita-baker.html</loc><priority>0.8</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/as-100-mais-antena-1.html</loc><priority>0.8</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/black-total.html</loc><priority>0.8</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/chris-korda.html</loc><priority>0.8</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/criolo.html</loc><priority>0.8</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/justice.html</loc><priority>0.8</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/tame-impala.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/broncho.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/mild-high-club.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/diiv.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/toro-y-moi.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/metronomy.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/daft-punk.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/ratos-de-porao.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/disclosure.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/arctic-monkeys.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/tyler-the-creator.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/playboi-carti.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/stromae.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/travis-scott.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/the-strokes.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/alpine.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/the-bird-and-the-bee.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/the-drums.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/washed-out.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/phoenix.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/the-vaccines.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/unknown-mortal-orchestra.html</loc><priority>0.9</priority></url>
-  <url><loc>https://fffelpe.github.io/ARQUIVO-SONORO/paginas/the-kooks.html</loc><priority>0.9</priority></url>
+  <!-- Páginas de artistas e especiais -->
+  <url><loc>https://arquivosonoro.site/50-cent.html</loc></url>
+  <url><loc>https://arquivosonoro.site/509-e.html</loc></url>
+  <url><loc>https://arquivosonoro.site/808-state.html</loc></url>
+  <url><loc>https://arquivosonoro.site/a-ha.html</loc></url>
+  <url><loc>https://arquivosonoro.site/abba.html</loc></url>
+  <url><loc>https://arquivosonoro.site/adoniran-barbosa.html</loc></url>
+  <url><loc>https://arquivosonoro.site/al-green.html</loc></url>
+  <url><loc>https://arquivosonoro.site/alan-palomo.html</loc></url>
+  <url><loc>https://arquivosonoro.site/alpine.html</loc></url>
+  <url><loc>https://arquivosonoro.site/alvvways.html</loc></url>
+  <url><loc>https://arquivosonoro.site/amy-winehouse.html</loc></url>
+  <url><loc>https://arquivosonoro.site/animal-collective.html</loc></url>
+  <url><loc>https://arquivosonoro.site/anita-baker.html</loc></url>
+  <url><loc>https://arquivosonoro.site/arctic-monkeys.html</loc></url>
+  <url><loc>https://arquivosonoro.site/as-100-mais-antena-1.html</loc></url>
+  <url><loc>https://arquivosonoro.site/beach-fossils.html</loc></url>
+  <url><loc>https://arquivosonoro.site/beach-house.html</loc></url>
+  <url><loc>https://arquivosonoro.site/best-coast.html</loc></url>
+  <url><loc>https://arquivosonoro.site/billie-eilish.html</loc></url>
+  <url><loc>https://arquivosonoro.site/black-total.html</loc></url>
+  <url><loc>https://arquivosonoro.site/blink-182.html</loc></url>
+  <url><loc>https://arquivosonoro.site/bombay-bicycle-club.html</loc></url>
+  <url><loc>https://arquivosonoro.site/broncho.html</loc></url>
+  <url><loc>https://arquivosonoro.site/bruno-e-marrone.html</loc></url>
+  <url><loc>https://arquivosonoro.site/cartola.html</loc></url>
+  <url><loc>https://arquivosonoro.site/cazuza.html</loc></url>
+  <url><loc>https://arquivosonoro.site/chris-korda.html</loc></url>
+  <url><loc>https://arquivosonoro.site/copacabana-club.html</loc></url>
+  <url><loc>https://arquivosonoro.site/criolo.html</loc></url>
+  <url><loc>https://arquivosonoro.site/daft-punk.html</loc></url>
+  <url><loc>https://arquivosonoro.site/digitalism.html</loc></url>
+  <url><loc>https://arquivosonoro.site/diiv.html</loc></url>
+  <url><loc>https://arquivosonoro.site/disclosure.html</loc></url>
+  <url><loc>https://arquivosonoro.site/dr-dre.html</loc></url>
+  <url><loc>https://arquivosonoro.site/justice.html</loc></url>
+  <url><loc>https://arquivosonoro.site/kraftwerk.html</loc></url>
+  <url><loc>https://arquivosonoro.site/mac-demarco.html</loc></url>
+  <url><loc>https://arquivosonoro.site/metronomy.html</loc></url>
+  <url><loc>https://arquivosonoro.site/mild-high-club.html</loc></url>
+  <url><loc>https://arquivosonoro.site/moloko.html</loc></url>
+  <url><loc>https://arquivosonoro.site/mr-jukes.html</loc></url>
+  <url><loc>https://arquivosonoro.site/part-time.html</loc></url>
+  <url><loc>https://arquivosonoro.site/phoenix.html</loc></url>
+  <url><loc>https://arquivosonoro.site/playboi-carti.html</loc></url>
+  <url><loc>https://arquivosonoro.site/racionais-mcs.html</loc></url>
+  <url><loc>https://arquivosonoro.site/ratos-de-porao.html</loc></url>
+  <url><loc>https://arquivosonoro.site/sabotage.html</loc></url>
+  <url><loc>https://arquivosonoro.site/san-cisco.html</loc></url>
+  <url><loc>https://arquivosonoro.site/silva.html</loc></url>
+  <url><loc>https://arquivosonoro.site/simply-red.html</loc></url>
+  <url><loc>https://arquivosonoro.site/stromae.html</loc></url>
+  <url><loc>https://arquivosonoro.site/tame-impala.html</loc></url>
+  <url><loc>https://arquivosonoro.site/the-bird-and-the-bee.html</loc></url>
+  <url><loc>https://arquivosonoro.site/the-drums.html</loc></url>
+  <url><loc>https://arquivosonoro.site/the-growlers.html</loc></url>
+  <url><loc>https://arquivosonoro.site/the-internet.html</loc></url>
+  <url><loc>https://arquivosonoro.site/the-kooks.html</loc></url>
+  <url><loc>https://arquivosonoro.site/the-strokes.html</loc></url>
+  <url><loc>https://arquivosonoro.site/the-vaccines.html</loc></url>
+  <url><loc>https://arquivosonoro.site/the-velvet-underground.html</loc></url>
+  <url><loc>https://arquivosonoro.site/the-xx.html</loc></url>
+  <url><loc>https://arquivosonoro.site/toro-y-moi.html</loc></url>
+  <url><loc>https://arquivosonoro.site/travis-scott.html</loc></url>
+  <url><loc>https://arquivosonoro.site/tyler-the-creator.html</loc></url>
+  <url><loc>https://arquivosonoro.site/unknown-mortal-orchestra.html</loc></url>
+  <url><loc>https://arquivosonoro.site/van-halen.html</loc></url>
+  <url><loc>https://arquivosonoro.site/washed-out.html</loc></url>
+
+  <!-- Funcionais -->
+  <url><loc>https://arquivosonoro.site/reportar.html</loc></url>
+  <url><loc>https://arquivosonoro.site/resultados.html</loc></url>
 
 </urlset>
