@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>JAWS | Arquivo Sonoro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discografia completa da banda JAWS para download gratuito via MediaFire.">
+  <meta name="keywords" content="JAWS, discografia, indie rock, download, arquivo sonoro">
+  <meta name="author" content="Felipe">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="JAWS | Arquivo Sonoro">
+  <meta property="og:description" content="Discografia completa da banda JAWS disponível para download gratuito.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://arquivosonoro.site/paginas/jaws.html">
+  <meta property="og:image" content="https://arquivosonoro.site/assets/jaws.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="JAWS | Arquivo Sonoro">
+  <meta name="twitter:description" content="Discografia completa da banda JAWS disponível para download gratuito.">
+  <meta name="twitter:image" content="https://arquivosonoro.site/assets/jaws.jpg">
+
+  <!-- Favicon e PWA -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="192x192" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="/assets/icon-512.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0066cc">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <!-- Google Analytics (substitua pelo seu ID real) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXXXXXX-X');
+  </script>
+</head>
+<body>
+  <header>
+    <h1>JAWS</h1>
+    <p>Discografia completa disponível para download gratuito.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Álbuns</h2>
+      <ul>
+        <li><strong>[2014] Be Slowly</strong><br>
+          <a href="https://www.mediafire.com/file/412qh76bm1zt95s/2014_-_Be_Slowly.7z/file" target="_blank">Download via MediaFire</a>
+        </li>
+        <li><strong>Simplicity</strong><br>
+          <a href="https://www.mediafire.com/file/1ktyufedfmdrtv3/Simplicity.7z/file" target="_blank">Download via MediaFire</a>
+        </li>
+        <li><strong>The Ceiling</strong><br>
+          <a href="https://www.mediafire.com/file/r5bcn7tcao8ok1q/The_Ceiling.7z/file" target="_blank">Download via MediaFire</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Arquivo Sonoro © 2025 – Projeto cultural sem fins lucrativos.</p>
+    <a href="/index.html">← Voltar ao início</a>
+  </footer>
+
+  <!-- Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(reg => console.log('Service Worker registrado:', reg.scope))
+        .catch(err => console.error('Erro ao registrar Service Worker:', err));
+    }
+  </script>
+</body>
+</html>
