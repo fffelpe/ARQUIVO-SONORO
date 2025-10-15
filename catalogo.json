@@ -1,70 +1,315 @@
 [
   {
-    "artista": "509-E",
-    "pagina": "509-e.html"
+    "titulo": "50 Cent",
+    "url": "50-cent.html",
+    "tipo": "artista"
   },
   {
-    "artista": "Anita Baker",
-    "pagina": "anita-baker.html"
+    "titulo": "509-E",
+    "url": "509-e.html",
+    "tipo": "artista"
   },
   {
-    "artista": "As 100 Mais Antena 1",
-    "pagina": "as-100-mais-antena-1.html"
+    "titulo": "808 State",
+    "url": "808-state.html",
+    "tipo": "artista"
   },
   {
-    "artista": "Black Total",
-    "pagina": "black-total.html"
+    "titulo": "A-ha",
+    "url": "a-ha.html",
+    "tipo": "artista"
   },
   {
-    "artista": "Chris Korda",
-    "pagina": "chris-korda.html"
+    "titulo": "ABBA",
+    "url": "abba.html",
+    "tipo": "artista"
   },
   {
-    "artista": "Criolo",
-    "pagina": "criolo.html"
+    "titulo": "Adoniran Barbosa",
+    "url": "adoniran-barbosa.html",
+    "tipo": "artista"
   },
   {
-    "artista": "Justice",
-    "pagina": "justice.html"
+    "titulo": "Al Green",
+    "url": "al-green.html",
+    "tipo": "artista"
   },
   {
-    "artista": "Tame Impala",
-    "pagina": "tame-impala.html"
+    "titulo": "Alan Palomo",
+    "url": "alan-palomo.html",
+    "tipo": "artista"
   },
   {
-    "artista": "Broncho",
-    "pagina": "broncho.html"
+    "titulo": "Alpine",
+    "url": "alpine.html",
+    "tipo": "artista"
   },
   {
-    "artista": "Mild High Club",
-    "pagina": "mild-high-club.html"
+    "titulo": "Alvvays",
+    "url": "alvvways.html",
+    "tipo": "artista"
   },
   {
-    "artista": "DIIV",
-    "pagina": "diiv.html"
+    "titulo": "Amy Winehouse",
+    "url": "amy-winehouse.html",
+    "tipo": "artista"
   },
   {
-    "artista": "Toro y Moi",
-    "pagina": "toro-y-moi.html"
+    "titulo": "Animal Collective",
+    "url": "animal-collective.html",
+    "tipo": "artista"
   },
   {
-    "artista": "Metronomy",
-    "pagina": "metronomy.html"
+    "titulo": "Anita Baker",
+    "url": "anita-baker.html",
+    "tipo": "artista"
   },
   {
-    "artista": "Daft Punk",
-    "pagina": "daft-punk.html"
+    "titulo": "Arctic Monkeys",
+    "url": "arctic-monkeys.html",
+    "tipo": "artista"
   },
   {
-    "artista": "Ratos de Porão",
-    "pagina": "ratos-de-porao.html"
+    "titulo": "As 100 Mais Antena 1",
+    "url": "as-100-mais-antena-1.html",
+    "tipo": "especial"
   },
   {
-    "artista": "Disclosure",
-    "pagina": "disclosure.html"
+    "titulo": "Beach Fossils",
+    "url": "beach-fossils.html",
+    "tipo": "artista"
   },
   {
-    "artista": "Arctic Monkeys",
-    "pagina": "arctic-monkeys.html"
-  }
-]
+    "titulo": "Beach House",
+    "url": "beach-house.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Best Coast",
+    "url": "best-coast.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Billie Eilish",
+    "url": "billie-eilish.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Black Total",
+    "url": "black-total.html",
+    "tipo": "coletânea"
+  },
+  {
+    "titulo": "Blink-182",
+    "url": "blink-182.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Bombay Bicycle Club",
+    "url": "bombay-bicycle-club.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Broncho",
+    "url": "broncho.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Bruno & Marrone",
+    "url": "bruno-e-marrone.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Cartola",
+    "url": "cartola.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Cazuza",
+    "url": "cazuza.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Chris Korda",
+    "url": "chris-korda.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Copacabana Club",
+    "url": "copacabana-club.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Criolo",
+    "url": "criolo.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Daft Punk",
+    "url": "daft-punk.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Digitalism",
+    "url": "digitalism.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "DIIV",
+    "url": "diiv.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Disclosure",
+    "url": "disclosure.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Dr. Dre",
+    "url": "dr-dre.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Justice",
+    "url": "justice.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Kraftwerk",
+    "url": "kraftwerk.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Mac DeMarco",
+    "url": "mac-demarco.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Metronomy",
+    "url": "metronomy.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Mild High Club",
+    "url": "mild-high-club.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Moloko",
+    "url": "moloko.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Mr Jukes",
+    "url": "mr-jukes.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Part Time",
+    "url": "part-time.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Phoenix",
+    "url": "phoenix.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Playboi Carti",
+    "url": "playboi-carti.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Racionais MC's",
+    "url": "racionais-mcs.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Ratos de Porão",
+    "url": "ratos-de-porao.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Sabotage",
+    "url": "sabotage.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "San Cisco",
+    "url": "san-cisco.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Silva",
+    "url": "silva.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Simply Red",
+    "url": "simply-red.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Stromae",
+    "url": "stromae.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Tame Impala",
+    "url": "tame-impala.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "The Bird and the Bee",
+    "url": "the-bird-and-the-bee.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "The Drums",
+    "url": "the-drums.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "The Growlers",
+    "url": "the-growlers.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "The Internet",
+    "url": "the-internet.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "The Kooks",
+    "url": "the-kooks.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "The Strokes",
+    "url": "the-strokes.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "The Vaccines",
+    "url": "the-vaccines.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "The Velvet Underground",
+    "url": "the-velvet-underground.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "The XX",
+    "url": "the-xx.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Toro y Moi",
+    "url": "toro-y-moi.html",
+    "tipo": "artista"
+  },
+  {
+    "titulo": "Travis Scott",
+    "url": "travis-scott.html",
+    "tipo": "artista
