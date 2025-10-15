@@ -313,3 +313,60 @@
     "titulo": "Travis Scott",
     "url": "travis-scott.html",
     "tipo": "artista
+  },
+    "titulo": "Frank Ocean",
+    "url": "frank-ocean.html", 
+    "tipo": "artista" 
+  },
+  {  "titulo": "Franz Ferdinand",
+    "url": "franz-ferdinand.html",
+    "tipo": "artista"
+  },
+    { 
+      "titulo": "Homeshake",
+      "url": "homeshake.html",
+      "tipo": "artista" 
+    },
+    { 
+      "titulo": "Imagine Dragons",
+      "url": "imagine-dragons.html",
+      "tipo": "artista" 
+    },
+  
+    { 
+      "titulo": "U2",
+      "url": "u2.html",
+      "tipo": "artista" 
+    },
+    { 
+      "titulo": "Two Door Cinema Club",
+      "url": "two-door-cinema-club.html",
+      "tipo": "artista" 
+    },
+    { 
+      "titulo": "Twenty One Pilots",
+      "url": "twenty-one-pilots.html",
+      "tipo": "artista" 
+    },
+    { 
+      "titulo": "Craft Spells",
+      "url": "craft-spells.html",
+      "tipo": "artista" 
+    },
+    { "titulo": "Joy Division",
+      "url": "joy-division.html",
+      "tipo": "artista" 
+    },
+    { 
+      "titulo": "MGMT",
+      "url": "mgmt.html",
+      "tipo": "artista" 
+    },
+    { "titulo": "Neon Indian",
+      "url": "neon-indian.html",
+      "tipo": "artista" 
+    },
+    { "titulo": "Peter Bjorn and John",
+      "url": "peter-bjorn-and-john.html",
+      "tipo": "artista"
+    },
