@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Homeshake | Arquivo Sonoro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discografia completa de Homeshake para download gratuito via MediaFire.">
+  <meta name="keywords" content="Homeshake, discografia, indie, lo-fi, bedroom pop, download, arquivo sonoro">
+  <meta name="author" content="Felipe">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Homeshake | Arquivo Sonoro">
+  <meta property="og:description" content="Discografia completa de Homeshake disponível para download gratuito.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://arquivosonoro.site/paginas/homeshake.html">
+  <meta property="og:image" content="https://arquivosonoro.site/assets/homeshake.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Homeshake | Arquivo Sonoro">
+  <meta name="twitter:description" content="Discografia completa de Homeshake disponível para download gratuito.">
+  <meta name="twitter:image" content="https://arquivosonoro.site/assets/homeshake.jpg">
+
+  <!-- Favicon e PWA -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="192x192" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="/assets/icon-512.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0066cc">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <!-- Google Analytics (substitua pelo seu ID real) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXXXXXX-X');
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Homeshake</h1>
+    <p>Discografia completa disponível para download gratuito.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Álbuns</h2>
+      <ul>
+        <li><strong>[2014] In the Shower</strong><br>
+          <a href="https://www.mediafire.com/file/wqdmrycruw5qy2u/%255B_2014_%255D_IN_THE_SHOWER.7z/file" target="_blank">Download via MediaFire</a>
+        </li>
+        <li><strong>[2015] Midnight Snack</strong><br>
+          <a href="https://www.mediafire.com/file/hoi3dj6rhdb8ufn/%255B_2015_%255D_MIDNIGHT_SNACK.7z/file" target="_blank">Download via MediaFire</a>
+        </li>
+        <li><strong>[2017] Fresh Air</strong><br>
+          <a href="https://www.mediafire.com/file/fqrgailatb7xis5/%255B_2017_%255D_FRESH_AIR.7z/file" target="_blank">Download via MediaFire</a>
+        </li>
+        <li><strong>[2019] Helium</strong><br>
+          <a href="https://www.mediafire.com/file/usv20i1r5rjtwhw/%255B_2019_%255D_HELIUM.7z/file" target="_blank">Download via MediaFire</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Arquivo Sonoro © 2025 – Projeto cultural sem fins lucrativos.</p>
+    <a href="/index.html">← Voltar ao início</a>
+  </footer>
+
+  <!-- Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(reg => console.log('Service Worker registrado:', reg.scope))
+        .catch(err => console.error('Erro ao registrar Service Worker:', err));
+    }
+  </script>
+</body>
+</html>
