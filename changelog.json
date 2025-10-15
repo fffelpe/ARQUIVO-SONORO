@@ -1,0 +1,24 @@
+[
+  {
+    "versao": "1.0.0",
+    "data": "2025-10-15",
+    "autor": "Felipe",
+    "descricao": "Versão inicial do site com estrutura principal e páginas de artistas.",
+    "novidades": [
+      "Criação da página inicial (index.html)",
+      "Adição de mais de 70 páginas de artistas",
+      "Página de reportes da comunidade (reportar.html)",
+      "Sitemap.xml e catalogo.json atualizados",
+      "Ativação de PWA com manifest.json e service-worker.js",
+      "Página de erro personalizada (404.html)",
+      "Arquivo .htaccess com cache, segurança e redirecionamento",
+      "Meta-tags otimizadas para SEO e redes sociais (meta-tags.html)"
+    ],
+    "proximos_passos": [
+      "Adicionar busca por artista",
+      "Criar página 'Contribua'",
+      "Integrar formulário com backend ou Google Forms",
+      "Gerar thumbnails automáticas para cada artista"
+    ]
+  }
+]
