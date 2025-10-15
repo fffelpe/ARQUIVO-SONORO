@@ -295,8 +295,17 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
   </a>
 </p>
 
+ <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(reg => console.log('Service Worker registrado:', reg.scope))
+      .catch(err => console.error('Erro ao registrar Service Worker:', err));
+  }
+</script>
+
 </body>
 </html>
+
 
 
 
