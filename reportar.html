@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Reportar à Comunidade | Arquivo Sonoro</title>
+  <meta name="description" content="Envie sugestões de álbuns, artistas ou informe links com erro.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://arquivosonoro.site/paginas/reportar.html">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #fff;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+    }
+    form {
+      margin-top: 30px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 15px;
+    }
+    button {
+      margin-top: 20px;
+      background-color: #0066cc;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #004999;
+    }
+  </style>
+</head>
+<body>
+  <h1>📢 Reportar à Comunidade</h1>
+  <p>Use o formulário abaixo para sugerir novos álbuns ou artistas, ou para informar se algum link está quebrado. Sua colaboração ajuda a manter o Arquivo Sonoro vivo e atualizado!</p>
+
+  <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+    <label for="nome">Seu nome (opcional)</label>
+    <input type="text" id="nome" name="nome">
+
+    <label for="email">Seu e-mail (opcional)</label>
+    <input type="email" id="email" name="email">
+
+    <label for="mensagem">Mensagem</label>
+    <textarea id="mensagem" name="mensagem" rows="6" placeholder="Ex: Gostaria do álbum X da banda Y. Ou: O link do artista Z está quebrado."></textarea>
+
+    <button type="submit">Enviar por e-mail</button>
+  </form>
+</body>
+</html>
