@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquivo Sonoro - Índice de Artistas</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; margin: 0; background-color: #f4f4f4; color: #333; }
+        .container { max-width: 1200px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,.1); }
+        h1 { text-align: center; border-bottom: 2px solid #eee; padding-bottom: 20px; margin-top: 0; }
+        #barraPesquisa {
+            width: 95%; /* Ou 100% dependendo do padding do container */
+            padding: 12px 15px;
+            margin-bottom: 25px;
+            font-size: 1.1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box; /* Importante para o width funcionar bem */
+        }
+        .artist-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            column-count: 5; /* Ajuste o número de colunas conforme desejar */
+            column-gap: 20px;
+        }
+        .artist-list li { margin-bottom: 12px; }
+        .artist-list a {
+            text-decoration: none;
+            color: #0056b3;
+            font-size: 1.1em;
+            font-weight: 500;
+            display: block;
+            padding: 5px;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        .artist-list a:hover { background-color: #f0f0f0; }
+        @media (max-width: 1200px) { .artist-list { column-count: 4; } }
+        @media (max-width: 900px) { .artist-list { column-count: 3; } }
+        @media (max-width: 600px) { .artist-list { column-count: 2; } }
+        @media (max-width: 400px) { .artist-list { column-count: 1; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Arquivo Sonoro - Índice de Artistas</h1>
+        
+        <input type="text" id="barraPesquisa" placeholder="🔍 Pesquisar artista..." oninput="filtrarArtistas()">
+
+        <ul class="artist-list" id="lista-artistas-ul">
+            <li><a href="artistas/14-bis.html">14 Bis</a></li>
+            <li><a href="artistas/18-carat-affair.html">18 Carat Affair</a></li>
+            <li><a href="artistas/2-unlimited.html">2 Unlimited</a></li>
+            <li><a href="artistas/2pac.html">2Pac</a></li>
+            <li><a href="artistas/50-cent.html">50 Cent</a></li>
+            <li><a href="artistas/509-e.html">509 E</a></li>
+            <li><a href="artistas/808-state.html">808 State</a></li>
+            <li><a href="artistas/a-ha.html">A Ha</a></li>
+            <li><a href="artistas/a-tribe-called-quest.html">A Tribe Called Quest</a></li>
+            <li><a href="artistas/abba.html">Abba</a></li>
+            <li><a href="artistas/adoniran-barbosa.html">Adoniran Barbosa</a></li>
+            <li><a href="artistas/al-green.html">Al Green</a></li>
+            <li><a href="artistas/alan-palomo.html">Alan Palomo</a></li>
+            <li><a href="artistas/alpine.html">Alpine</a></li>
+            <li><a href="artistas/alvvays.html">Alvvays</a></li>
+            <li><a href="artistas/amy-winehouse.html">Amy Winehouse</a></li>
+            <li><a href="artistas/animal-collective.html">Animal Collective</a></li>
+            <li><a href="artistas/anita-baker.html">Anita Baker</a></li>
+            <li><a href="artistas/archicteture-in-tokyo.html">Archicteture In Tokyo</a></li>
+            <li><a href="artistas/arctic-monkeys.html">Arctic Monkeys</a></li>
+            <li><a href="artistas/ariel-pink.html">Ariel Pink</a></li>
+            <li><a href="artistas/ava-rocha.html">Ava Rocha</a></li>
+            <li><a href="artistas/beach-fossils.html">Beach Fossils</a></li>
+            <li><a href="artistas/beach-house.html">Beach House</a></li>
+            <li><a href="artistas/best-coast.html">Best Coast</a></li>
+            <li><a href="artistas/billie-eillish.html">Billie Eillish</a></li>
+            <li><a href="artistas/billy-idol.html">Billy Idol</a></li>
+            <li><a href="artistas/bl00dwave.html">Bl00Dwave</a></li>
+            <li><a href="artistas/blink-182.html">Blink 182</a></li>
+            <li><a href="artistas/bob-marley.html">Bob Marley</a></li>
+            <li><a href="artistas/bombay-bicycle-club.html">Bombay Bicycle Club</a></li>
+            <li><a href="artistas/brand-new-heavies.html">Brand New Heavies</a></li>
+            <li><a href="artistas/broadcast.html">Broadcast</a></li>
+            <li><a href="artistas/broncho.html">Broncho</a></li>
+            <li><a href="artistas/caetano-veloso.html">Caetano Veloso</a></li>
+            <li><a href="artistas/camisa-de-venus.html">Camisa De Venus</a></li>
+            <li><a href="artistas/capital-cities.html">Capital Cities</a></li>
+            <li><a href="artistas/cartola.html">Cartola</a></li>
+            <li><a href="artistas/cassiano.html">Cassiano</a></li>
+            <li><a href="artistas/cazuza.html">Cazuza</a></li>
+            <li><a href="artistas/charlie-brown-jr.html">Charlie Brown Jr</a></li>
+            <li><a href="artistas/chic.html">Chic</a></li>
+            <li><a href="artistas/chris-korda.html">Chris Korda</a></li>
+            <li><a href="artistas/cocteau-twins.html">Cocteau Twins</a></li>
+            <li><a href="artistas/com-truise.html">Com Truise</a></li>
+            <li><a href="artistas/copacabana-club.html">Copacabana Club</a></li>
+            <li><a href="artistas/cosmic-cycler.html">Cosmic Cycler</a></li>
+            <li><a href="artistas/craft-spells.html">Craft Spells</a></li>
+            <li><a href="artistas/criolo.html">Criolo</a></li>
+            <li><a href="artistas/culture-beat.html">Culture Beat</a></li>
+            <li><a href="artistas/cássia-eller.html">Cássia Eller</a></li>
+            <li><a href="artistas/daft-punk.html">Daft Punk</a></li>
+            <li><a href="artistas/david-bowie.html">David Bowie</a></li>
+            <li><a href="artistas/david-guetta.html">David Guetta</a></li>
+            <li><a href="artistas/deep-purple.html">Deep Purple</a></li>
+            <li><a href="artistas/deerhunter.html">Deerhunter</a></li>
+            <li><a href="artistas/demarkus-lewis.html">Demarkus Lewis</a></li>
+            <li><a href="artistas/depeche-mode.html">Depeche Mode</a></li>
+            <li><a href="artistas/descendents.html">Descendents</a></li>
+            <li><a href="artistas/digitalism.html">Digitalism</a></li>
+            <li><a href="artistas/diiv.html">Diiv</a></li>
+            <li><a href="artistas/dire-straits.html">Dire Straits</a></li>
+            <li><a href="artistas/disclosure.html">Disclosure</a></li>
+            <li><a href="artistas/djavan.html">Djavan</a></li>
+            <li><a href="artistas/doja-cat.html">Doja Cat</a></li>
+            <li><a href="artistas/dr-dre.html">Dr Dre</a></li>
+            <li><a href="artistas/drake.html">Drake</a></li>
+            <li><a href="artistas/earth-wind-and-fire.html">Earth Wind And Fire</a></li>
+            <li><a href="artistas/ed-motta.html">Ed Motta</a></li>
+            <li><a href="artistas/eminem.html">Eminem</a></li>
+            <li><a href="artistas/erykah-badu.html">Erykah Badu</a></li>
+            <li><a href="artistas/esprit-空想.html">Esprit 空想</a></li>
+            <li><a href="artistas/esteban-tavares.html">Esteban Tavares</a></li>
+            <li><a href="artistas/exodus.html">Exodus</a></li>
+            <li><a href="artistas/falco.html">Falco</a></li>
+            <li><a href="artistas/fall-out-boy.html">Fall Out Boy</a></li>
+            <li><a href="artistas/foster-the-people.html">Foster The People</a></li>
+            <li><a href="artistas/frank-ocean.html">Frank Ocean</a></li>
+            <li><a href="artistas/franz-ferdinand.html">Franz Ferdinand</a></li>
+            <li><a href="artistas/gabriel-o-pensador.html">Gabriel O Pensador</a></li>
+            <li><a href="artistas/gal-costa.html">Gal Costa</a></li>
+            <li><a href="artistas/garotos-podres.html">Garotos Podres</a></li>
+            <li><a href="artistas/gilberto-gil.html">Gilberto Gil</a></li>
+            <li><a href="artistas/gorillaz.html">Gorillaz</a></li>
+            <li><a href="artistas/gregory-isaacs.html">Gregory Isaacs</a></li>
+            <li><a href="artistas/guilherme-arantes.html">Guilherme Arantes</a></li>
+            <li><a href="artistas/hall-and-oates.html">Hall And Oates</a></li>
+            <li><a href="artistas/homeshake.html">Homeshake</a></li>
+            <li><a href="artistas/ice-cube.html">Ice Cube</a></li>
+            <li><a href="artistas/imagine-dragons.html">Imagine Dragons</a></li>
+            <li><a href="artistas/incognito.html">Incognito</a></li>
+            <li><a href="artistas/inner-wave.html">Inner Wave</a></li>
+            <li><a href="artistas/inxs.html">Inxs</a></li>
+            <li><a href="artistas/iron-maiden.html">Iron Maiden</a></li>
+            <li><a href="artistas/ivan-lins.html">Ivan Lins</a></li>
+            <li><a href="artistas/jamiroquai.html">Jamiroquai</a></li>
+            <li><a href="artistas/jaws.html">Jaws</a></li>
+            <li><a href="artistas/jimmy-cliff.html">Jimmy Cliff</a></li>
+            <li><a href="artistas/joey-negro.html">Joey Negro</a></li>
+            <li><a href="artistas/john-lennon.html">John Lennon</a></li>
+            <li><a href="artistas/john-maus.html">John Maus</a></li>
+            <li><a href="artistas/jorge-vercillo.html">Jorge Vercillo</a></li>
+            <li><a href="artistas/joy-division.html">Joy Division</a></li>
+            <li><a href="artistas/judas-priest.html">Judas Priest</a></li>
+            <li><a href="artistas/justice.html">Justice</a></li>
+            <li><a href="artistas/kaleidoscópio.html">Kaleidoscópio</a></li>
+            <li><a href="artistas/kanye-west.html">Kanye West</a></li>
+            <li><a href="artistas/kasabian.html">Kasabian</a></li>
+            <li><a href="artistas/kendrick-lamar.html">Kendrick Lamar</a></li>
+            <li><a href="artistas/kero-kero-bonito.html">Kero Kero Bonito</a></li>
+            <li><a href="artistas/khruangbin.html">Khruangbin</a></li>
+            <li><a href="artistas/kid-abelha.html">Kid Abelha</a></li>
+            <li><a href="artistas/kraftwerk.html">Kraftwerk</a></li>
+            <li><a href="artistas/la-femme.html">La Femme</a></li>
+            <li><a href="artistas/linkin-park.html">Linkin Park</a></li>
+            <li><a href="artistas/lucky-dube.html">Lucky Dube</a></li>
+            <li><a href="artistas/mac-demarco.html">Mac Demarco</a></li>
+            <li><a href="artistas/macintosh-plus.html">Macintosh Plus</a></li>
+            <li><a href="artistas/marcos-valle.html">Marcos Valle</a></li>
+            <li><a href="artistas/marina-lima.html">Marina Lima</a></li>
+            <li><a href="artistas/marisa-monte.html">Marisa Monte</a></li>
+            <li><a href="artistas/melodys-echo-chamber.html">Melodys Echo Chamber</a></li>
+            <li><a href="artistas/men-at-work.html">Men At Work</a></li>
+            <li><a href="artistas/metallica.html">Metallica</a></li>
+            <li><a href="artistas/metronomy.html">Metronomy</a></li>
+            <li><a href="artistas/mgmt.html">Mgmt</a></li>
+            <li><a href="artistas/migos.html">Migos</a></li>
+            <li><a href="artistas/mild-high-club.html">Mild High Club</a></li>
+            <li><a href="artistas/misfits.html">Misfits</a></li>
+            <li><a href="artistas/moloko.html">Moloko</a></li>
+            <li><a href="artistas/mr-jukes.html">Mr Jukes</a></li>
+            <li><a href="artistas/my-bloody-valentine.html">My Bloody Valentine</a></li>
+            <li><a href="artistas/neon-indian.html">Neon Indian</a></li>
+            <li><a href="artistas/new-order.html">New Order</a></li>
+            <li><a href="artistas/nirvana.html">Nirvana</a></li>
+            <li><a href="artistas/oasis.html">Oasis</a></li>
+            <li><a href="artistas/of-monsters-and-men.html">Of Monsters And Men</a></li>
+            <li><a href="artistas/olympic-ayres.html">Olympic Ayres</a></li>
+            <li><a href="artistas/os-mutantes.html">Os Mutantes</a></li>
+            <li><a href="artistas/part-time.html">Part Time</a></li>
+            <li><a href="artistas/pato-fu.html">Pato Fu</a></li>
+            <li><a href="artistas/patrice-rushen.html">Patrice Rushen</a></li>
+            <li><a href="artistas/pearl-jam.html">Pearl Jam</a></li>
+            <li><a href="artistas/pet-shop-boys.html">Pet Shop Boys</a></li>
+            <li><a href="artistas/peter-bjorn-and-john.html">Peter Bjorn And John</a></li>
+            <li><a href="artistas/phoenix.html">Phoenix</a></li>
+            <li><a href="artistas/pink-floyd.html">Pink Floyd</a></li>
+            <li><a href="artistas/pinkshinyultrablast.html">Pinkshinyultrablast</a></li>
+            <li><a href="artistas/playboi-carti.html">Playboi Carti</a></li>
+            <li><a href="artistas/pond.html">Pond</a></li>
+            <li><a href="artistas/psychic-mirrors.html">Psychic Mirrors</a></li>
+            <li><a href="artistas/r-stevie-moore.html">R Stevie Moore</a></li>
+            <li><a href="artistas/racionais-mc_s.html">Racionais Mc_S</a></li>
+            <li><a href="artistas/radiohead.html">Radiohead</a></li>
+            <li><a href="artistas/rammstein.html">Rammstein</a></li>
+            <li><a href="artistas/ramones.html">Ramones</a></li>
+            <li><a href="artistas/ratos-de-porão.html">Ratos De Porão</a></li>
+            <li><a href="artistas/red-hot-chilli-peppers.html">Red Hot Chilli Peppers</a></li>
+            <li><a href="artistas/rita-lee.html">Rita Lee</a></li>
+            <li><a href="artistas/roy-ayers.html">Roy Ayers</a></li>
+            <li><a href="artistas/sabotage.html">Sabotage</a></li>
+            <li><a href="artistas/sade.html">Sade</a></li>
+            <li><a href="artistas/saint-ettiene.html">Saint Ettiene</a></li>
+            <li><a href="artistas/saint-pepsi.html">Saint Pepsi</a></li>
+            <li><a href="artistas/san-cisco.html">San Cisco</a></li>
+            <li><a href="artistas/schmoov.html">Schmoov</a></li>
+            <li><a href="artistas/seu-jorge.html">Seu Jorge</a></li>
+            <li><a href="artistas/shalamar.html">Shalamar</a></li>
+            <li><a href="artistas/sharon-redd.html">Sharon Redd</a></li>
+            <li><a href="artistas/silva.html">Silva</a></li>
+            <li><a href="artistas/simple-minds.html">Simple Minds</a></li>
+            <li><a href="artistas/simply-red.html">Simply Red</a></li>
+            <li><a href="artistas/sister-sledge.html">Sister Sledge</a></li>
+            <li><a href="artistas/skank.html">Skank</a></li>
+            <li><a href="artistas/slayer.html">Slayer</a></li>
+            <li><a href="artistas/slipknot.html">Slipknot</a></li>
+            <li><a href="artistas/slowdive.html">Slowdive</a></li>
+            <li><a href="artistas/slowerpace-音楽.html">Slowerpace 音楽</a></li>
+            <li><a href="artistas/snoop-dogg.html">Snoop Dogg</a></li>
+            <li><a href="artistas/sonic-youth.html">Sonic Youth</a></li>
+            <li><a href="artistas/splashh.html">Splashh</a></li>
+            <li><a href="artistas/stevie-wonder.html">Stevie Wonder</a></li>
+            <li><a href="artistas/stromae.html">Stromae</a></li>
+            <li><a href="artistas/supergrass.html">Supergrass</a></li>
+            <li><a href="artistas/swing-out-sister.html">Swing Out Sister</a></li>
+            <li><a href="artistas/tame-impala.html">Tame Impala</a></li>
+            <li><a href="artistas/tears-for-fears.html">Tears For Fears</a></li>
+            <li><a href="artistas/the-bar-kays.html">The Bar Kays</a></li>
+            <li><a href="artistas/the-beatles.html">The Beatles</a></li>
+            <li><a href="artistas/the-bird-and-the-bee.html">The Bird And The Bee</a></li>
+            <li><a href="artistas/the-black-eyed-peas.html">The Black Eyed Peas</a></li>
+            <li><a href="artistas/the-clash.html">The Clash</a></li>
+            <li><a href="artistas/the-drums.html">The Drums</a></li>
+            <li><a href="artistas/the-growlers.html">The Growlers</a></li>
+            <li><a href="artistas/the-internet.html">The Internet</a></li>
+            <li><a href="artistas/the-kooks.html">The Kooks</a></li>
+            <li><a href="artistas/the-neighbourhood.html">The Neighbourhood</a></li>
+            <li><a href="artistas/the-notorious-big.html">The Notorious Big</a></li>
+            <li><a href="artistas/the-rolling-stones.html">The Rolling Stones</a></li>
+            <li><a href="artistas/the-strokes.html">The Strokes</a></li>
+            <li><a href="artistas/the-vaccines.html">The Vaccines</a></li>
+            <li><a href="artistas/the-velvet-underground.html">The Velvet Underground</a></li>
+            <li><a href="artistas/the-wombats.html">The Wombats</a></li>
+            <li><a href="artistas/the-xx.html">The Xx</a></li>
+            <li><a href="artistas/tim-maia.html">Tim Maia</a></li>
+            <li><a href="artistas/tom-and-jerry.html">Tom And Jerry</a></li>
+            <li><a href="artistas/tom-browne.html">Tom Browne</a></li>
+            <li><a href="artistas/toro-y-moi.html">Toro Y Moi</a></li>
+            <li><a href="artistas/travis-scott.html">Travis Scott</a></li>
+            <li><a href="artistas/trilhas-e-vinhetas.html">Trilhas E Vinhetas</a></li>
+            <li><a href="artistas/twenty-one-pilots.html">Twenty One Pilots</a></li>
+            <li><a href="artistas/two-door-cinema-club.html">Two Door Cinema Club</a></li>
+            <li><a href="artistas/tyler-the-creator.html">Tyler The Creator</a></li>
+            <li><a href="artistas/tânia-maria.html">Tânia Maria</a></li>
+            <li><a href="artistas/u2.html">U2</a></li>
+            <li><a href="artistas/udr.html">Udr</a></li>
+            <li><a href="artistas/ultra-ウルトラ.html">Ultra ウルトラ</a></li>
+            <li><a href="artistas/umo.html">Umo</a></li>
+            <li><a href="artistas/van-halen.html">Van Halen</a></li>
+            <li><a href="artistas/vega.html">Vega</a></li>
+            <li><a href="artistas/vhs-logos.html">Vhs Logos</a></li>
+            <li><a href="artistas/washed-out.html">Washed Out</a></li>
+            <li><a href="artistas/wavves.html">Wavves</a></li>
+            <li><a href="artistas/wax-children.html">Wax Children</a></li>
+            <li><a href="artistas/wild-nothing.html">Wild Nothing</a></li>
+            <li><a href="artistas/yellow-magic-orchestra.html">Yellow Magic Orchestra</a></li>
+            <li><a href="artistas/yung-lean.html">Yung Lean</a></li>
+            <li><a href="artistas/zapp.html">Zapp</a></li>
+
+        </ul>
+    </div>
+
+    <script>
+        function filtrarArtistas() {
+            const termo = document.getElementById("barraPesquisa").value.toLowerCase();
+            const lista = document.getElementById("lista-artistas-ul");
+            const itens = lista.getElementsByTagName("li");
+
+            for (let i = 0; i < itens.length; i++) {
+                const link = itens[i].getElementsByTagName("a")[0];
+                const nomeArtista = link.textContent || link.innerText;
+                if (nomeArtista.toLowerCase().indexOf(termo) > -1) {
+                    itens[i].style.display = ""; // Mostra o item
+                } else {
+                    itens[i].style.display = "none"; // Esconde o item
+                }
+            }
+        }
+        // Chama a função uma vez no início para garantir que tudo esteja visível
+        filtrarArtistas();
+    </script>
+
+</body>
+</html>
